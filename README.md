@@ -6,7 +6,7 @@ Este desafio pode ser usado para avaliar tecnicamente todas as pessoas interessa
 
 ## O desafio
 
-Quando fazemos uma compra online, ou enviamos uma encomenda para um amigo ou cliente, gostamos de acompanhar e saber o que está acontecendo com nosso pacote. Esta experiência é muito importante tanto para quem envia quanto para quem está aguardando recebimento.  
+Quando fazemos uma compra online, ou enviamos uma encomenda para um amigo ou cliente, gostamos de acompanhar e saber o que está acontecendo com nosso pacote. Esta experiência é muito importante tanto para quem envia quanto para quem está aguardando recebimento.
 
 Neste desafio, te convidamos a pensar como "dono da Loggi". É você quem vai definir (e implementar) como será a experiência de uso deste "rastreador". Você pode usar como inspiração o [rastreador atual do site da Loggi](https://www.loggi.com/rastreador/) ou de outros sites que você use e goste de acompanhar suas encomendas.
 
@@ -30,12 +30,12 @@ Sugerimos que para a parte de backend (retorno de dados) você use (ou implement
 ## O mínimo que esperamos
 - Que você seja a pessoa que fez o projeto - _ficaríamos bem desapontados se outra pessoa fizesse o desafio por você._
 - Que os commits sejam pequenos, com poucas alterações, mostrando seu raciocínio de construção nos comentários
- 
+
 Separamos alguns níveis de avaliação.
 
 ### Nivel Básico:
 - Documentação - precisamos conseguir rodar o projeto apenas lendo a documentação, sem perguntar nada para ninguém.
-- Documentação - além de entender o projeto, é importante estarem documentadas as decisões (principalmente de experiência do usuário) 
+- Documentação - além de entender o projeto, é importante estarem documentadas as decisões (principalmente de experiência do usuário)
 - Organização do código
 - Componentes React (HTML) escrito da maneira mais semântica possível
 - Mobile first e layout responsivo
