@@ -51,6 +51,11 @@ const theme = createTheme({
         },
       },
     },
+    MuiTextField: {
+      defaultProps: {
+        fullWidth: true,
+      },
+    },
   },
   typography: {
     fontFamily: montserrat.style.fontFamily,
