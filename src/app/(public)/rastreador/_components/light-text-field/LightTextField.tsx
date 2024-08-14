@@ -11,4 +11,12 @@ export const LightTextField = styled(TextField)<TextFieldProps>(({ theme }) => (
       textTransform: 'uppercase',
     },
   },
+  '.MuiFormHelperText-root.Mui-error': {
+    width: 'max-content',
+    backgroundColor: theme.palette.error.main,
+    color: theme.palette.common.white,
+    marginLeft: 0,
+    paddingBlock: theme.spacing(0.3),
+    paddingInline: theme.spacing(1),
+  },
 }));
