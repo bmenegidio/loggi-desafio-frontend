@@ -1,19 +1,12 @@
 'use client';
 
 import { Search } from '@mui/icons-material';
-import {
-  Box,
-  Container,
-  Grid,
-  IconButton,
-  InputAdornment,
-  Typography,
-  useTheme,
-} from '@mui/material';
+import { Box, Grid, IconButton, InputAdornment, Typography, useTheme } from '@mui/material';
 import { Controller } from 'react-hook-form';
 
 import { LightTextField } from '@/app/(public)/rastreador/_components/light-text-field/LightTextField';
 import { useTrackerViewModel } from '@/app/(public)/rastreador/use-tracker.viewmodel';
+import { Container } from '@/components/layout/container/Container';
 
 export function TrackerView() {
   const theme = useTheme();
@@ -22,7 +15,7 @@ export function TrackerView() {
   return (
     <>
       <Box sx={{ width: '100%', background: theme.palette.secondary.main }}>
-        <Container sx={{ py: 4 }} maxWidth="md">
+        <Container>
           <Grid container spacing={6} flexDirection={'column'}>
             <Grid item xs={12}>
               <Typography
