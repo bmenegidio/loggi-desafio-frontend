@@ -1,4 +1,5 @@
 import { zodResolver } from '@hookform/resolvers/zod';
+import { useRouter } from 'next/navigation';
 import { useForm } from 'react-hook-form';
 
 import {
@@ -7,6 +8,8 @@ import {
 } from '@/models/package-search/package-search.model';
 
 export function useTrackerViewModel() {
+  const router = useRouter();
+
   const {
     handleSubmit,
     control,
@@ -19,7 +22,7 @@ export function useTrackerViewModel() {
   });
 
   function navigateToPackageSearch(formData: PackageSearchSchema) {
-    console.log(`navigateToPackageSearch: ${formData.packageCode}`);
+    router.push(`/rastreador/${formData.packageCode}`);
   }
 
   return {
